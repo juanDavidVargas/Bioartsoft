@@ -1,0 +1,57 @@
+.padre{
+
+}
+.hijos{
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.hijo{
+
+}
+.hijo:first-child, .hijo:last-child{
+  border-radius: 0px;
+}
+
+#panel_compras{
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+#panel_ventas{
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+#panel_categorias{
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+#detalle-abono-ventas{
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+#modal-detalles-abonos-creditos{
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+#modal-detal-abono-prestamo{
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+#modal-detal-abonos{
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.obligatorio{
+  color: red;
+  font-size: 1.3em;
+}
+
+#asterisco{
+  color: red;
+}
